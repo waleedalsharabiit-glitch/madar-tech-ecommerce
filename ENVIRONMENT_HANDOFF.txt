@@ -1,0 +1,364 @@
+﻿MADAR TECH - ENVIRONMENT HANDOFF REPORT
+Generated: 2026-10-25 11:25:28
+Project: C:\Users\waleed\Desktop\madar-tech
+OS: Microsoft Windows NT 10.0.26200.0
+PowerShell: 5.1.26100.9444
+
+
+==================================================
+Node.js version
+==================================================
+v24.18.0
+EXIT_CODE=0
+
+==================================================
+npm version
+==================================================
+12.0.2
+EXIT_CODE=0
+
+==================================================
+Dependency verification
+==================================================
+madar-tech@0.1.0 C:\Users\Waleed\Desktop\madar-tech
++-- eslint-config-next@16.4.2
+| +-- @next/eslint-plugin-next@16.4.2
+| | `-- @eslint-community/eslint-utils@4.9.1
+| |   `-- eslint@9.39.5 deduped
+| +-- eslint-import-resolver-typescript@3.10.1
+| | `-- eslint@9.39.5 deduped
+| +-- eslint-plugin-import@2.32.0
+| | `-- eslint@9.39.5 deduped
+| +-- eslint-plugin-jsx-a11y@6.10.2
+| | `-- eslint@9.39.5 deduped
+| +-- eslint-plugin-react-hooks@7.1.1
+| | `-- eslint@9.39.5 deduped
+| +-- eslint-plugin-react@7.37.5
+| | `-- eslint@9.39.5 deduped
+| +-- eslint@9.39.5 deduped
+| +-- typescript-eslint@8.72.0
+| | +-- @typescript-eslint/eslint-plugin@8.72.0
+| | | +-- @typescript-eslint/type-utils@8.72.0
+| | | | +-- eslint@9.39.5 deduped
+| | | | `-- typescript@5.9.3 deduped
+| | | +-- eslint@9.39.5 deduped
+| | | +-- ts-api-utils@2.5.0
+| | | | `-- typescript@5.9.3 deduped
+| | | `-- typescript@5.9.3 deduped
+| | +-- @typescript-eslint/parser@8.72.0
+| | | +-- eslint@9.39.5 deduped
+| | | `-- typescript@5.9.3 deduped
+| | +-- @typescript-eslint/typescript-estree@8.72.0
+| | | +-- @typescript-eslint/project-service@8.72.0
+| | | | `-- typescript@5.9.3 deduped
+| | | +-- @typescript-eslint/tsconfig-utils@8.72.0
+| | | | `-- typescript@5.9.3 deduped
+| | | `-- typescript@5.9.3 deduped
+| | +-- @typescript-eslint/utils@8.72.0
+| | | +-- eslint@9.39.5 deduped
+| | | `-- typescript@5.9.3 deduped
+| | +-- eslint@9.39.5 deduped
+| | `-- typescript@5.9.3 deduped
+| `-- typescript@5.9.3 deduped
++-- eslint@9.39.5
+| `-- @eslint-community/eslint-utils@4.10.1
+|   `-- eslint@9.39.5 deduped
++-- next@16.4.2
+| +-- react-dom@19.3.0 deduped
+| +-- react@19.3.0 deduped
+| `-- styled-jsx@5.1.6
+|   `-- react@19.3.0 deduped
++-- react-dom@19.3.0
+| `-- react@19.3.0 deduped
++-- react@19.3.0
+`-- typescript@5.9.3
+
+EXIT_CODE=0
+
+=== LOCAL EXECUTABLES ===
+PASS: C:\Users\waleed\Desktop\madar-tech\node_modules\.bin\next.cmd
+PASS: C:\Users\waleed\Desktop\madar-tech\node_modules\.bin\tsc.cmd
+PASS: C:\Users\waleed\Desktop\madar-tech\node_modules\.bin\eslint.cmd
+
+==================================================
+TypeScript type check
+==================================================
+src/app/layout.tsx(20,50): error TS2304: Cannot find name 'LayoutProps'.
+EXIT_CODE=2
+
+==================================================
+ESLint
+==================================================
+npm notice run madar-tech@0.1.0 lint
+npm notice run eslint
+EXIT_CODE=0
+
+==================================================
+Next.js production build
+==================================================
+npm notice run madar-tech@0.1.0 build
+npm notice run next build
+ظû▓ Next.js 16.4.2 (Turbopack)
+ظ£ô Running next.config.ts took 40ms
+- Cache Components enabled
+- Partial Prefetching enabled
+
+  Creating an optimized production build ...
+ظ£ô Compiled successfully in 20.5s
+  Running TypeScript ...
+  Finished TypeScript in 2.6s ...
+  Collecting page data using 5 workers ...
+  Generating static pages using 5 workers (0/4) ...
+  Generating static pages using 5 workers (1/4) 
+  Generating static pages using 5 workers (2/4) 
+  Generating static pages using 5 workers (3/4) 
+ظ£ô Generating static pages using 5 workers (4/4) in 936ms
+  Finalizing page optimization ...
+
+Route (app)
+ظ¤î ظùï /
+ظ¤¤ ظùï /_not-found
+
+
+ظùï  (Static)  prerendered as static content
+
+EXIT_CODE=0
+
+==================================================
+npm registry connectivity
+==================================================
+npm notice PING https://registry.npmjs.org/
+npm notice PONG 3097ms
+EXIT_CODE=0
+
+=== PACKAGE.JSON ===
+{
+    "name":  "madar-tech",
+    "version":  "0.1.0",
+    "private":  true,
+    "scripts":  {
+                    "dev":  "next dev",
+                    "build":  "next build",
+                    "start":  "next start",
+                    "lint":  "eslint"
+                },
+    "dependencies":  {
+                         "next":  "16.4.2",
+                         "react":  "19.3.0",
+                         "react-dom":  "19.3.0"
+                     },
+    "devDependencies":  {
+                            "@tailwindcss/turbopack":  "^4",
+                            "@types/node":  "^20",
+                            "@types/react":  "^19",
+                            "@types/react-dom":  "^19",
+                            "eslint":  "^9",
+                            "eslint-config-next":  "16.4.2",
+                            "tailwindcss":  "^4",
+                            "typescript":  "^5"
+                        }
+}
+
+
+dev   : next dev
+build : next build
+start : next start
+lint  : eslint
+
+
+
+
+
+=== CONFIGURATION FILE INVENTORY ===
+PRESENT: package-lock.json
+PRESENT: tsconfig.json
+PRESENT: next.config.ts
+MISSING: next.config.js
+PRESENT: eslint.config.mjs
+MISSING: eslint.config.js
+MISSING: postcss.config.mjs
+MISSING: postcss.config.js
+MISSING: tailwind.config.ts
+MISSING: tailwind.config.js
+PRESENT: .gitignore
+MISSING: .env.example
+MISSING: prisma.config.ts
+MISSING: prisma\schema.prisma
+PRESENT: README.md
+
+--- FILE: tsconfig.json ---
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+  "exclude": ["node_modules"]
+}
+
+--- FILE: next.config.ts ---
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+  cacheComponents: true,
+  partialPrefetching: true,
+  turbopack: {
+    rules: {
+      "*.css": {
+        loaders: ["@tailwindcss/turbopack"],
+        as: "*.css",
+      },
+    },
+  },
+};
+
+export default nextConfig;
+
+--- FILE: eslint.config.mjs ---
+import { defineConfig, globalIgnores } from "eslint/config";
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTs from "eslint-config-next/typescript";
+
+const eslintConfig = defineConfig([
+  ...nextVitals,
+  ...nextTs,
+  // Override default ignores of eslint-config-next.
+  globalIgnores([
+    // Default ignores of eslint-config-next:
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts",
+  ]),
+]);
+
+export default eslintConfig;
+
+--- FILE: .gitignore ---
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+--- FILE: README.md ---
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+=== ENVIRONMENT FILES (NAMES ONLY) ===
+No .env* files found.
+
+=== POSTGRESQL STATUS ===
+postgresql-x64-17 | Running | postgresql-x64-17 - PostgreSQL Server 17
+psql.exe is not available on PATH.
+
+=== GIT STATUS ===
+Git repository has not been initialized.
+
+=== INSTALL SCRIPT REVIEW ===
+1 package has install scripts blocked because they are not covered by allowScripts:
+  unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+
+Run `npm install-scripts approve <pkg>` to allow, or `npm install-scripts deny <pkg>` to deny.
+EXIT_CODE=0
+
+=== SUMMARY ===
+Checks failed: 1
+Audit completed: 2026-10-25 11:26:12
